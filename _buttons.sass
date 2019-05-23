@@ -1,0 +1,101 @@
+.button 
+    appearance: none
+    display: inline-block
+    padding: 10px 25px 10px 25px
+    margin: $spacing/2 0px
+    text-decoration: none
+    box-shadow: $shadow
+    border-radius: $radius
+    font-size: 1em
+    font-family: $default-font
+    outline: none
+    cursor: pointer
+    color: $default-font-color
+    background-color: $default-color
+    transition: background-color 0.2s
+    border: 1px solid transparent 
+
+button.button
+    border: none
+
+.button:focus
+    outline: none
+    box-shadow: $focus
+
+.button:hover
+    background-color: darken($default-color, 10%)
+
+.button:active
+    background-color: darken($default-color, 20%)
+
+.button-group 
+    margin: $spacing 0px
+
+.button-group > * + *
+    margin-right: $spacing
+
+.button:first-of-type
+    margin-right: $spacing
+
+.button:last-of-type
+    margin-right: 0px
+
+.button.dark
+    background-color: $dark-color
+    color: $dark-bg-font-color
+
+.button.dark:hover
+    background-color: darken($dark-color, 10%)
+
+.button.dark:active
+    background-color: darken($dark-color, 20%)
+
+.button.primary
+    background-color: $primary-color
+    color: $dark-bg-font-color
+
+.button.primary:hover
+    background-color: darken($primary-color, 10%)
+
+.button.primary:active
+    background-color: darken($primary-color, 20%)
+
+.button.secondary
+    background-color: $secondary-color
+    color: $dark-bg-font-color
+
+.button.secondary:hover
+    background-color: darken($secondary-color, 10%)
+
+.button.secondary:active
+    background-color: darken($secondary-color, 20%)
+
+.button.success
+    background-color: $success-color
+    color: $dark-bg-font-color
+
+.button.success:hover
+    background-color: darken($success-color, 10%)
+
+.button.success:active
+    background-color: darken($success-color, 20%)
+
+.button.warning
+    background-color: $warning-color
+    color: $darken-font-color
+
+.button.warning:hover
+    background-color: darken($warning-color, 10%)
+
+.button.warning:active
+    background-color: darken($warning-color, 20%)
+
+.button.danger
+    background-color: $danger-color
+    color: $darken-font-color
+
+.button.danger:hover
+    background-color: darken($danger-color, 10%)
+
+.button.danger:active
+    background-color: darken($danger-color, 20%)
