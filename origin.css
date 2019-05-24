@@ -141,6 +141,15 @@ button.button {
 .col {
   width: 100%; }
 
+.col-seven-eighths {
+  width: calc(100%/1.14286); }
+
+.col-six-sevenths {
+  width: calc(100%/1.16667); }
+
+.col-five-sixths {
+  width: calc(100%/1.2); }
+
 .col-four-fifths {
   width: calc(100%/1.25); }
 
